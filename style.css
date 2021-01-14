@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+}
+
+footer {
+    width: 100%;
+    margin-top: 300px;
+    height: 150px;
+    background: rgb(214, 13, 13);
+    font-family: Nunito;
+    padding-bottom: 25px;
+}
+
+footer section{
+    float: left;
+}
+
+footer .address{
+    color: #fff;
+    margin-left: 14%;
+}
+
+footer .address h3{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 15px;
+
+    color: #fff;
+}
+
+footer .address h3::after{
+    display: block;
+    height: 5px;
+    width: 45px;
+    background-color: #fff;
+    content: "";
+    margin-top: 12px;
+}
+
+footer .address p{
+    line-height: 10px;
+    font-size: 12px;
+}
+
+footer .address a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+footer .contact{
+    margin-left: 10%;
+    background: #0ff;
+}
+
+footer .contact ul{
+    margin-top: 30px;
+}
+
+footer .contact ul li{
+    width: 180px;
+    height: 28px;
+    padding-bottom: 5px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 10px;
+    padding-top: 10px;
+    list-style: none;
+}
+
+footer .contact ul li a{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .contact ul li a::before{
+    content: "";
+    background-image: url('image/mail-icon.png');
+    height: 25px;
+    width: 25px;
+    background-size: 100% 100%;
+    margin-right: 13px;
+    margin-left: 20px;
+    float: left;
+}
+
+footer .contact ul li:last-child a::before{
+    background-image: url('image/phone-icon.png');
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+footer .created{
+    margin-left: 120px;
+}
+
+footer .created div{
+    float: left;
+}
+
+footer .created div p{
+    color: #fff;
+    font-size: 10px;
+    margin-left: 30px;
+    margin-top: 60px; 
+}
+
+footer .created div img{
+    width: 70px;
+    margin-left: 30px;
+}
